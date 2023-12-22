@@ -1,3 +1,7 @@
 #inputs
 /checkins-datasheet/inputs
 /create-checkins/inputs
+
+#dist
+/checkins-datasheet/dist
+/create-checkins/dist
