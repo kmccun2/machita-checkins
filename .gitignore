@@ -1,12 +1,13 @@
-# git ignore all files in both folders
-checkins-datasheet/
-create-checkins/
+# git ignore all files in checkins-datasheet
+/checkins-datasheet/*
 
 # Unignore python scripts
-# Scripts
-!checkins-datasheet/createCheckInsDatasheet.py
-!create-checkins/createCheckIns.py
+!/checkins-datasheet/createCheckInsDatasheet.py
+!/checkins-datasheet/freeze.py
 
-# Freeze files
-!checkins-datasheet/freeze.py
-!create-checkins/freeze.py
+# git ignore all files in create-checkins
+/create-checkins/*
+
+# Unignore python scripts
+!/create-checkins/createCheckIns.py
+!/create-checkins/freeze.py
