@@ -1,5 +1,3 @@
-checkins-datasheet/dist
-checkins-datasheet/inputs
-checkins-datasheet/templates
-checkins-datasheet/utils
-checkins-datasheet/Check-In Cards.xlsx
+#inputs
+/checkins-datasheet/inputs
+/create-checkins/inputs
